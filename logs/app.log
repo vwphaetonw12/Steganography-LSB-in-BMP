@@ -595,3 +595,55 @@
 2024-12-13 22:08:59 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image loaded for extraction
 2024-12-13 22:31:42 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
 2024-12-13 22:31:42 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 22:37:50 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 22:37:50 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 22:37:52 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Modified BMP button clicked
+2024-12-13 22:38:00 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Modified image loaded: C:\Users\mamad\OneDrive\Изображения\test image 3.bmp
+2024-12-13 22:38:02 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-13 22:38:05 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 22:38:05 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 22:38:05 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-13 22:38:09 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Original image loaded: C:\Users\mamad\OneDrive\Изображения\test image 3.bmp
+2024-12-13 22:38:24 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-13 22:38:24 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-13 22:38:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-13 22:38:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-13 22:38:30 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Save Modified Image button clicked
+2024-12-13 22:38:52 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Modified image saved to: C:\Users\mamad\OneDrive\Рабочий стол\picture with text.bmp
+2024-12-13 22:39:12 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 22:39:12 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 22:39:14 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-13 22:39:18 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Original image loaded: C:\Users\mamad\OneDrive\Изображения\test image 1.bmp
+2024-12-13 22:39:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-13 22:39:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-13 22:39:29 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Save Modified Image button clicked
+2024-12-13 22:39:47 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Modified image saved to: C:\Users\mamad\OneDrive\Изображения\picture2 with text.bmp
+2024-12-13 22:39:49 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 22:39:49 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 22:39:50 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-13 22:39:53 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Original image loaded: C:\Users\mamad\OneDrive\Изображения\test image 2.bmp
+2024-12-13 22:40:01 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-13 22:40:01 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-13 22:40:02 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-13 22:40:02 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text extracted successfully: emdeded text 999
+2024-12-13 22:40:04 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Save Modified Image button clicked
+2024-12-13 22:40:23 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Modified image saved to: C:\Users\mamad\OneDrive\Рабочий стол\picture3 with text.bmp
+2024-12-13 22:40:29 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 22:40:29 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 22:40:31 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Modified BMP button clicked
+2024-12-13 22:40:43 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Modified image loaded: C:\Users\mamad\OneDrive\Изображения\modified.bmp
+2024-12-13 22:40:44 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-13 22:40:44 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text extracted successfully: emdeded text 999
+2024-12-13 22:40:49 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Modified BMP button clicked
+2024-12-13 22:40:56 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Modified image loaded: C:\Users\mamad\OneDrive\Рабочий стол\picture2 with text.bmp
+2024-12-13 22:40:57 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-13 22:40:57 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text extracted successfully: emdeded text
+2024-12-13 22:41:00 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No image or text provided for embedding
+2024-12-13 22:41:02 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-13 22:41:02 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text extracted successfully: emdeded text
+2024-12-13 22:41:04 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Modified BMP button clicked
+2024-12-13 22:41:10 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Modified image loaded: C:\Users\mamad\OneDrive\Рабочий стол\picture2 with text.bmp
+2024-12-13 22:41:13 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Modified BMP button clicked
+2024-12-13 22:41:17 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Modified image loaded: C:\Users\mamad\OneDrive\Рабочий стол\picture3 with text.bmp
+2024-12-13 22:41:19 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-13 22:41:19 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text extracted successfully: emdeded text 999
