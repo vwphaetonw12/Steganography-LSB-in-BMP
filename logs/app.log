@@ -1,0 +1,595 @@
+2024-12-12 17:30:50 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-12 17:30:50 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 17:30:51 [JavaFX Application Thread] INFO  org.app.SteganographyApp - UI elements initialized
+2024-12-12 17:31:07 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-12 17:31:07 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 17:31:07 [JavaFX Application Thread] INFO  org.app.SteganographyApp - UI elements initialized
+2024-12-12 17:31:10 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-12 17:31:10 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image loaded for extraction
+2024-12-12 17:31:13 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 17:31:13 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 17:31:13 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 17:31:13 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 17:31:13 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 17:31:13 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 17:31:14 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 17:31:14 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 17:31:16 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image loaded for visual attack
+2024-12-12 17:31:17 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No original image loaded for visual attack
+2024-12-12 17:31:21 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Modified BMP button clicked
+2024-12-12 17:31:24 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-12 17:31:26 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Original image loaded: C:\Users\mamad\OneDrive\Изображения\test image 1.bmp
+2024-12-12 17:31:32 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-12 17:31:32 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-12 17:31:34 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-12 17:31:34 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 17:31:34 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on original image
+2024-12-12 17:31:35 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 17:31:36 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on original image
+2024-12-12 17:31:37 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 17:31:38 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-12 17:31:38 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 17:31:39 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-12 17:31:39 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 17:31:44 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-12 17:31:44 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-12 17:31:45 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-12 17:31:45 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 17:35:04 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-12 17:35:04 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 17:35:04 [JavaFX Application Thread] INFO  org.app.SteganographyApp - UI elements initialized
+2024-12-12 17:44:09 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-12 17:44:09 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 17:44:09 [JavaFX Application Thread] INFO  org.app.SteganographyApp - UI elements initialized
+2024-12-12 18:01:45 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-12 18:01:45 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 18:01:45 [JavaFX Application Thread] INFO  org.app.SteganographyApp - UI elements initialized
+2024-12-12 18:01:46 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-12 18:01:52 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Original image loaded: C:\Users\mamad\OneDrive\Изображения\test image 3.bmp
+2024-12-12 18:01:57 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-12 18:01:57 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-12 18:02:00 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-12 18:02:00 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text extracted successfully: werwerwerwrw
+2024-12-12 18:02:02 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-12 18:02:02 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 18:02:03 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on original image
+2024-12-12 18:02:03 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 18:02:06 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Save Modified Image button clicked
+2024-12-12 18:02:11 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Modified image saved to: C:\Users\mamad\OneDrive\Изображения\saved_image.bmp
+2024-12-12 18:02:14 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:02:14 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:02:15 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:02:15 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:02:15 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:02:15 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:02:15 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:02:15 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:02:15 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:02:15 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:02:15 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:02:15 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:02:15 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:02:15 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:02:17 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Modified BMP button clicked
+2024-12-12 18:02:21 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Modified image loaded: C:\Users\mamad\OneDrive\Изображения\saved_image.bmp
+2024-12-12 18:02:22 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-12 18:02:22 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text extracted successfully: werwerwerwrw
+2024-12-12 18:11:42 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-12 18:11:42 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 18:11:42 [JavaFX Application Thread] INFO  org.app.SteganographyApp - UI elements initialized
+2024-12-12 18:11:44 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-12 18:11:48 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Original image loaded: C:\Users\mamad\OneDrive\Изображения\test image 1.bmp
+2024-12-12 18:11:50 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-12 18:11:51 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-12 18:11:54 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-12 18:11:54 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text extracted successfully: 34535345
+2024-12-12 18:11:56 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on original image
+2024-12-12 18:11:56 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 18:11:57 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-12 18:11:57 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 18:14:16 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-12 18:14:16 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 18:14:16 [JavaFX Application Thread] INFO  org.app.SteganographyApp - UI elements initialized
+2024-12-12 18:14:22 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No image or text provided for embedding
+2024-12-12 18:14:24 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-12 18:14:24 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image loaded for extraction
+2024-12-12 18:14:25 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Save Modified Image button clicked
+2024-12-12 18:14:25 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image to save
+2024-12-12 18:14:26 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:14:26 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:14:27 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image loaded for visual attack
+2024-12-12 18:14:28 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No original image loaded for visual attack
+2024-12-12 18:14:31 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-12 18:14:38 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Original image loaded: C:\Users\mamad\OneDrive\Изображения\test image 1.bmp
+2024-12-12 18:14:40 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-12 18:14:40 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-12 18:14:42 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-12 18:14:42 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 18:14:43 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on original image
+2024-12-12 18:14:43 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 18:14:46 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-12 18:14:46 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 18:14:46 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on original image
+2024-12-12 18:14:46 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 18:14:48 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-12 18:14:48 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-12 18:14:49 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on original image
+2024-12-12 18:14:49 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 18:14:49 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-12 18:14:49 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 18:14:54 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-12 18:14:54 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text extracted successfully: 563563п
+2024-12-12 18:14:58 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:14:58 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:14:58 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Modified BMP button clicked
+2024-12-12 18:15:03 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Modified image loaded: C:\Users\mamad\OneDrive\Изображения\saved_image.bmp
+2024-12-12 18:15:04 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-12 18:15:04 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text extracted successfully: werwerwerwrw
+2024-12-12 18:18:04 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-12 18:18:04 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 18:18:04 [JavaFX Application Thread] INFO  org.app.SteganographyApp - UI elements initialized
+2024-12-12 18:18:05 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Modified BMP button clicked
+2024-12-12 18:18:08 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Modified image loaded: C:\Users\mamad\OneDrive\Изображения\modified.bmp
+2024-12-12 18:18:10 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-12 18:18:10 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text extracted successfully: 563563п
+2024-12-12 18:18:13 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-12 18:18:13 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 18:18:13 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No original image loaded for visual attack
+2024-12-12 18:18:15 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No original image loaded for visual attack
+2024-12-12 18:18:16 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-12 18:18:17 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 18:24:18 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-12 18:24:18 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 18:24:19 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 18:24:20 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Save Modified Image button clicked
+2024-12-12 18:24:20 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image to save
+2024-12-12 18:24:23 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-12 18:24:23 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image loaded for extraction
+2024-12-12 18:24:23 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No image or text provided for embedding
+2024-12-12 18:24:24 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image loaded for visual attack
+2024-12-12 18:24:25 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No original image loaded for visual attack
+2024-12-12 18:24:26 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:24:26 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:24:26 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:24:26 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:24:27 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:24:27 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:24:27 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:24:27 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:24:27 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:24:27 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:24:27 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:24:27 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:24:27 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:24:27 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:24:27 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:24:27 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:24:27 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:24:27 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:24:27 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:24:27 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:24:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:24:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:24:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:24:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:24:31 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Modified BMP button clicked
+2024-12-12 18:24:34 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Modified image loaded: C:\Users\mamad\OneDrive\Изображения\modified.bmp
+2024-12-12 18:24:36 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-12 18:24:36 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text extracted successfully: 563563п
+2024-12-12 18:24:38 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-12 18:24:38 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 18:24:39 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No original image loaded for visual attack
+2024-12-12 18:47:07 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-12 18:47:07 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 18:47:07 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 18:47:08 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-12 18:47:15 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Original image loaded: C:\Users\mamad\OneDrive\Изображения\test image 2.bmp
+2024-12-12 18:47:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-12 18:47:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-12 18:47:30 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Save Modified Image button clicked
+2024-12-12 18:47:45 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Modified image saved to: C:\Users\mamad\OneDrive\Рабочий стол\modifited.bmp
+2024-12-12 18:57:03 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-12 18:57:03 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 18:57:04 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 18:57:05 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Save Modified Image button clicked
+2024-12-12 18:57:05 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image to save
+2024-12-12 18:57:08 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:57:08 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:57:08 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:57:08 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:57:08 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:57:08 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:57:08 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:57:08 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 18:57:08 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 18:57:08 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 19:24:23 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-12 19:24:23 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 19:24:24 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 19:24:25 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-12 19:24:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Original image loaded: C:\Users\mamad\OneDrive\Изображения\test image 1.bmp
+2024-12-12 19:24:31 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-12 19:24:31 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-12 19:24:31 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-12 19:24:31 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text extracted successfully: sdfsdfsdsdfsd
+2024-12-12 19:24:34 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-12 19:24:34 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 19:24:34 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on original image
+2024-12-12 19:24:35 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 19:24:39 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-12 19:24:39 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-12 19:24:41 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-12 19:24:41 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 19:24:46 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-12 19:24:46 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-12 19:24:47 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-12 19:24:47 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 19:24:47 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 19:24:47 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 19:36:01 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-12 19:36:01 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 19:36:01 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 19:52:58 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-12 19:52:58 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 19:52:58 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 19:52:59 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-12 19:53:05 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Original image loaded: C:\Users\mamad\OneDrive\Изображения\test image 3.bmp
+2024-12-12 19:53:09 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-12 19:53:09 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image loaded for extraction
+2024-12-12 19:53:11 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-12 19:53:11 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-12 19:53:12 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-12 19:53:12 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 19:53:13 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on original image
+2024-12-12 19:53:13 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-12 20:42:39 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-12 20:42:39 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 20:42:39 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 21:21:45 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-12 21:21:45 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 21:21:46 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 22:31:28 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-12 22:31:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 22:31:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 22:31:30 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No image or text provided for embedding
+2024-12-12 22:31:33 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Save Modified Image button clicked
+2024-12-12 22:31:33 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image to save
+2024-12-12 22:31:34 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 22:31:34 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 22:31:34 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 22:31:34 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 22:31:34 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image loaded for visual attack
+2024-12-12 22:31:35 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image loaded for visual attack
+2024-12-12 22:31:36 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No original image loaded for visual attack
+2024-12-12 22:45:54 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-12 22:45:54 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 22:45:54 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 22:45:59 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 22:45:59 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 22:45:59 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 22:45:59 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 22:46:00 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 22:46:00 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 22:46:00 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 22:46:00 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 22:46:00 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 22:46:00 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 22:46:00 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 22:46:00 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 22:46:00 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 22:46:00 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 22:46:00 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 22:46:00 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 22:46:00 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 22:46:00 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 22:46:00 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 22:46:00 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 22:46:01 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 22:46:01 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 22:46:01 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 22:46:01 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 22:46:01 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 22:46:01 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 22:46:01 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 22:46:01 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 22:46:01 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 22:46:01 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 22:46:01 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 22:46:01 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 22:46:01 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 22:46:01 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 22:50:37 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-12 22:50:37 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 22:50:37 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 22:52:54 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-12 22:52:54 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 22:52:54 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 23:22:25 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-12 23:22:25 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 23:22:25 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-12 23:22:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 23:22:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 23:22:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 23:22:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 23:22:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 23:22:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 23:22:29 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 23:22:29 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 23:22:29 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 23:22:29 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 23:22:29 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 23:22:29 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 23:22:29 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-12 23:22:29 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-12 23:22:30 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image loaded for visual attack
+2024-12-12 23:22:31 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No original image loaded for visual attack
+2024-12-12 23:22:33 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Save Modified Image button clicked
+2024-12-12 23:22:33 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image to save
+2024-12-12 23:22:34 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-12 23:22:34 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image loaded for extraction
+2024-12-12 23:22:35 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No image or text provided for embedding
+2024-12-12 23:22:36 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Modified BMP button clicked
+2024-12-12 23:22:37 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-13 01:07:53 [main] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 01:12:21 [main] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 01:42:48 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 01:42:48 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 01:42:48 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 01:42:51 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-13 01:42:54 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Original image loaded: C:\Users\mamad\OneDrive\Изображения\test image 1.bmp
+2024-12-13 01:42:57 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on original image
+2024-12-13 01:42:58 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-13 01:42:58 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image loaded for visual attack
+2024-12-13 01:43:02 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-13 01:43:02 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-13 01:43:03 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-13 01:43:03 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-13 01:43:06 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-13 01:43:06 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text extracted successfully: sdfsdsdfsdfsfsf
+2024-12-13 01:43:39 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 01:43:39 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 01:43:40 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 01:44:28 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 01:44:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 01:44:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 01:56:18 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 01:56:18 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 01:56:19 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 01:59:46 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 01:59:46 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 01:59:46 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 01:59:48 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 01:59:48 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 01:59:48 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 01:59:48 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 01:59:49 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 01:59:49 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 01:59:49 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 01:59:49 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 01:59:49 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 01:59:49 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 01:59:49 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 01:59:49 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 01:59:49 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 01:59:49 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 02:11:46 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 02:11:46 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 02:11:46 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 15:42:56 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 15:42:56 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 15:42:56 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 15:43:05 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-13 15:43:07 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Modified BMP button clicked
+2024-12-13 15:43:09 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No image or text provided for embedding
+2024-12-13 15:43:10 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Save Modified Image button clicked
+2024-12-13 15:43:10 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image to save
+2024-12-13 15:43:11 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 15:43:11 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 15:43:11 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 15:43:11 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 15:43:11 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 15:43:11 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 15:43:12 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 15:43:12 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 15:43:12 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 15:43:12 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 15:43:12 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 15:43:12 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 15:43:12 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 15:43:12 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 15:44:46 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 15:44:46 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 15:44:46 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 15:44:50 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No image or text provided for embedding
+2024-12-13 15:44:53 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Save Modified Image button clicked
+2024-12-13 15:44:53 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image to save
+2024-12-13 15:44:55 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 15:44:55 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 15:44:55 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image loaded for visual attack
+2024-12-13 16:07:03 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 16:07:03 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 16:07:03 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 16:07:05 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Modified BMP button clicked
+2024-12-13 16:07:07 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Modified image loaded: C:\Users\mamad\OneDrive\Изображения\modified.bmp
+2024-12-13 16:07:08 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-13 16:07:09 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-13 16:07:10 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-13 16:07:10 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text extracted successfully: sdfsdsdfsdfsfsf
+2024-12-13 16:33:39 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 16:33:39 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 16:33:39 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 16:33:53 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-13 16:33:55 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 16:33:55 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 16:33:56 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 16:33:56 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 16:33:56 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 16:33:56 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 16:33:56 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 16:33:56 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 16:33:56 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 16:33:56 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 16:33:56 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 16:33:56 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 16:33:56 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 16:33:56 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 16:34:02 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No image or text provided for embedding
+2024-12-13 16:34:06 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-13 16:34:12 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Original image loaded: C:\Users\mamad\OneDrive\Изображения\test image 2.bmp
+2024-12-13 16:34:32 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-13 16:34:32 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image loaded for extraction
+2024-12-13 16:34:33 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-13 16:34:34 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-13 16:34:35 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-13 16:34:35 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-13 16:34:35 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on original image
+2024-12-13 16:34:35 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-13 16:51:53 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 16:51:54 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 16:51:54 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 16:53:33 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 17:16:07 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 17:18:43 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 17:20:02 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 17:20:30 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 17:20:31 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 17:20:31 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 17:35:48 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 17:35:48 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 17:35:48 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 17:45:44 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 17:45:44 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 17:45:44 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 17:52:07 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 17:54:33 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 17:56:42 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 17:56:42 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 17:56:42 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 17:57:36 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 17:57:36 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 17:57:37 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 17:58:56 [main] INFO  org.app.SteganographyApp - Application starting...
+2024-12-13 18:03:48 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 18:03:48 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 18:04:10 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 18:04:10 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 18:04:12 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image loaded for visual attack
+2024-12-13 18:04:14 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 18:04:14 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 18:04:14 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 18:04:14 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 18:04:15 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 18:04:15 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 18:04:15 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 18:04:15 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 18:04:15 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 18:04:15 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 18:04:15 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 18:04:15 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 18:04:16 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 18:04:16 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 18:04:16 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 18:04:16 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 18:04:16 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No original image loaded for visual attack
+2024-12-13 18:04:17 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No original image loaded for visual attack
+2024-12-13 18:04:18 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No original image loaded for visual attack
+2024-12-13 18:04:19 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No original image loaded for visual attack
+2024-12-13 18:04:19 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No original image loaded for visual attack
+2024-12-13 18:04:19 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No original image loaded for visual attack
+2024-12-13 18:04:20 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No original image loaded for visual attack
+2024-12-13 18:04:20 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No original image loaded for visual attack
+2024-12-13 18:04:21 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No original image loaded for visual attack
+2024-12-13 18:04:21 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No original image loaded for visual attack
+2024-12-13 18:04:25 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No image or text provided for embedding
+2024-12-13 18:04:26 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No image or text provided for embedding
+2024-12-13 18:04:26 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No image or text provided for embedding
+2024-12-13 18:04:27 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No image or text provided for embedding
+2024-12-13 18:04:27 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No image or text provided for embedding
+2024-12-13 18:08:28 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 18:08:29 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 18:14:09 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 18:14:09 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 18:19:09 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 18:19:10 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 18:23:27 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 18:23:27 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 18:27:29 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 18:27:29 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 18:55:41 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 18:55:41 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 18:55:55 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Modified BMP button clicked
+2024-12-13 18:55:56 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-13 18:56:00 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Original image loaded: C:\Users\mamad\OneDrive\Изображения\test image 1.bmp
+2024-12-13 18:56:05 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-13 18:56:05 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-13 18:56:27 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 18:56:27 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 18:56:33 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-13 18:56:35 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Original image loaded: C:\Users\mamad\OneDrive\Изображения\test image 1.bmp
+2024-12-13 18:56:36 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-13 18:56:36 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-13 18:56:38 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Save Modified Image button clicked
+2024-12-13 18:56:42 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Modified image saved to: C:\Users\mamad\OneDrive\Изображения\saved_image.bmp
+2024-12-13 18:56:43 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-13 18:56:43 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-13 18:56:45 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 18:56:45 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 18:56:47 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Modified BMP button clicked
+2024-12-13 18:56:50 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Modified image loaded: C:\Users\mamad\OneDrive\Изображения\saved_image.bmp
+2024-12-13 18:56:53 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-13 18:56:53 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text extracted successfully: test
+2024-12-13 18:58:47 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 18:58:47 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 18:58:48 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-13 18:58:51 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Original image loaded: C:\Users\mamad\OneDrive\Изображения\test image 2.bmp
+2024-12-13 18:58:53 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 18:58:53 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 18:58:54 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-13 18:58:56 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Original image loaded: C:\Users\mamad\OneDrive\Изображения\test image 3.bmp
+2024-12-13 18:59:48 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-13 18:59:48 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-13 19:00:10 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Save Modified Image button clicked
+2024-12-13 19:00:14 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Modified image saved to: C:\Users\mamad\OneDrive\Изображения\123.bmp
+2024-12-13 19:00:16 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Save Modified Image button clicked
+2024-12-13 19:00:18 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 19:00:18 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 19:00:19 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Modified BMP button clicked
+2024-12-13 19:00:23 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Modified image loaded: C:\Users\mamad\OneDrive\Изображения\123.bmp
+2024-12-13 19:00:24 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-13 19:00:24 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text extracted successfully: zzs_oib{your_message}
+2024-12-13 19:33:41 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 19:33:41 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 19:33:43 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Modified BMP button clicked
+2024-12-13 19:33:45 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Modified BMP button clicked
+2024-12-13 19:33:56 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-13 19:34:02 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Original image loaded: C:\Users\mamad\OneDrive\Изображения\test image 3.bmp
+2024-12-13 19:34:04 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No image or text provided for embedding
+2024-12-13 19:35:25 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Original BMP button clicked
+2024-12-13 19:35:34 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Original image loaded: C:\Users\mamad\OneDrive\Изображения\test image 3.bmp
+2024-12-13 19:35:43 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Embedding text into image
+2024-12-13 19:35:43 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Text embedded successfully and saved to modified.bmp
+2024-12-13 19:35:45 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-13 19:35:45 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-13 19:35:45 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on original image
+2024-12-13 19:35:45 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-13 19:38:06 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 19:38:06 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 19:38:08 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Modified BMP button clicked
+2024-12-13 19:38:12 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Modified image loaded: C:\Users\mamad\OneDrive\Изображения\123.bmp
+2024-12-13 19:38:13 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-13 19:38:13 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-13 19:38:41 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Reset button clicked
+2024-12-13 19:38:41 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Application reset
+2024-12-13 19:38:42 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Load Modified BMP button clicked
+2024-12-13 19:38:44 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Modified image loaded: C:\Users\mamad\OneDrive\Изображения\saved_image.bmp
+2024-12-13 19:38:45 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Performing visual attack on modified image
+2024-12-13 19:38:45 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Visual attack applied successfully
+2024-12-13 20:30:03 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 20:30:03 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 22:05:14 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 22:05:14 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 22:08:55 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 22:08:55 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Initializing main UI elements
+2024-12-13 22:08:58 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No image or text provided for embedding
+2024-12-13 22:08:59 [JavaFX Application Thread] INFO  org.app.SteganographyApp - Extract Text button clicked
+2024-12-13 22:08:59 [JavaFX Application Thread] WARN  org.app.SteganographyApp - No modified image loaded for extraction
