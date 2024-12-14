@@ -11,7 +11,7 @@
 3. Запустите приложение с помощью следующей команды:
 
    ```bash
-   java -jar .\путь\Stegonagraphy-1.0-SNAPSHOT.jar
+   java -jar .\путь\StegonagraphyApplication.jar
    ```
 
 ---
