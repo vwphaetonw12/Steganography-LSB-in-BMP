@@ -271,8 +271,10 @@ public class SteganographyApp extends Application {
             byte[] textBytes = text.getBytes();
 
             // Ensure the image is large enough to embed the text
-            if (imageData.length < textBytes.length) {
-                showErrorMessage("The image is too small to hold the text.");
+            int availableCapacity = imageData.length / 8; 
+            if (textBytes.length > availableCapacity) {
+                showErrorMessage("The message is too large to embed in this image. Available capacity: "
+                        + availableCapacity + " bytes, Message size: " + textBytes.length + " bytes.");
                 return;
             }
 
