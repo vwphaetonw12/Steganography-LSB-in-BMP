@@ -50,11 +50,11 @@ import org.apache.logging.log4j.Logger;
  * To run the application:
  * 1. Compile the project using a JavaFX-compatible build tool (e.g., Maven or Gradle).
  * 2. Ensure the JavaFX runtime libraries are included in the classpath.
- * 3. Run the application using the {@link NewSteganographyApp} launcher class.
+ * 3. Run the application using the {@link SteganographyAppLauncher} launcher class.
  * </pre>
  *
  * @see javafx.application.Application
- * @see org.app.NewSteganographyApp
+ * @see SteganographyAppLauncher
  * @see org.app.ImageCryptoTools
  * @see org.app.ImageStatistics
  */

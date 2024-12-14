@@ -9,7 +9,7 @@ import javafx.application.Application;
  * by invoking the {@link Application#launch(Class, String...)} method.
  * </p>
  */
-public class NewSteganographyApp {
+public class SteganographyAppLauncher {
 
     /**
      * Main method to launch the Steganography application.
