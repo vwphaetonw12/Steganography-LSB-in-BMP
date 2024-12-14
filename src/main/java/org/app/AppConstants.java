@@ -39,10 +39,12 @@ public class AppConstants {
 
     // Other UI settings
     public static final String ROOT_LAYOUT_BACKGROUND_COLOR = "#f4f4f9";
-    public static final String BUTTON_STYLE = "-fx-background-color: #4CAF50; " +
+    public static final String BUTTON_STYLE = "-fx-background-color: #FFA500; " +
             "-fx-text-fill: white; " +
             "-fx-font-size: 14px; " +
+            "-fx-font-weight: bold; " +
             "-fx-padding: 10px 20px; " +
+            "-fx-border-width: 2px; " +
             "-fx-border-radius: 5px; " +
             "-fx-cursor: hand; " +
             "-fx-effect: dropshadow(gaussian, #000, 10, 0.5, 2, 2);";

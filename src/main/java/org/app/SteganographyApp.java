@@ -5,7 +5,8 @@ import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.image.*;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.*;
 import javafx.scene.text.Font;
 import javafx.stage.FileChooser;
@@ -35,15 +36,19 @@ public class SteganographyApp extends Application {
     Button extractTextButton;
     Button saveModifiedImageButton;
     Button resetButton;
+
     private Button visualAttackModifiedButton;
     private Button visualAttackOriginalButton;
 
-    private HBox rootLayout;
+    private VBox rootLayout;
     private HBox imageDisplayLayout;
-
     private VBox controlsLayout;
     private VBox originalImageBox;
     private VBox modifiedImageBox;
+    private VBox logoBox;
+
+    private Label originalImageStatsLabel;
+    private Label modifiedImageStatsLabel;
 
     public static void main(String[] args) {
         logger.info("Application starting...");
@@ -56,6 +61,10 @@ public class SteganographyApp extends Application {
         stage.setTitle("Steganography in BMP");
 
         logger.info("Initializing main UI elements");
+
+        LogoComponent logoComponent = new LogoComponent("/logo/logo.png");
+        logoBox = logoComponent.getLogoBox();
+
         initMainUIElements();
     }
 
@@ -81,7 +90,7 @@ public class SteganographyApp extends Application {
         addActionListenersForElements();
 
         logger.info(AppConstants.UI_INITIALIZING_LOG);
-        stage.setScene(new Scene(rootLayout, 1340, 800));
+        stage.setScene(new Scene(rootLayout, 1400, 800));
         stage.show();
     }
 
@@ -89,7 +98,18 @@ public class SteganographyApp extends Application {
         originalImageBox = createImageBox(originalImageView, "Original Image");
         modifiedImageBox = createImageBox(modifiedImageView, "Modified Image");
 
-        imageDisplayLayout = new HBox(30, originalImageBox, modifiedImageBox);
+        originalImageStatsLabel = new Label("Original Image Stats: Not loaded");
+        modifiedImageStatsLabel = new Label("Modified Image Stats: Not loaded");
+
+        originalImageStatsLabel.setFont(Font.font(12));
+        originalImageStatsLabel.setStyle("-fx-text-fill: #333;");
+        modifiedImageStatsLabel.setFont(Font.font(12));
+        modifiedImageStatsLabel.setStyle("-fx-text-fill: #333;");
+
+        VBox originalWithStats = new VBox(10, originalImageBox, originalImageStatsLabel);
+        VBox modifiedWithStats = new VBox(10, modifiedImageBox, modifiedImageStatsLabel);
+
+        imageDisplayLayout = new HBox(30, originalWithStats, modifiedWithStats);
         imageDisplayLayout.setAlignment(Pos.CENTER);
         imageDisplayLayout.setPadding(new Insets(20));
 
@@ -107,10 +127,11 @@ public class SteganographyApp extends Application {
         controlsLayout.setAlignment(Pos.CENTER);
         controlsLayout.setPadding(new Insets(20));
 
-        rootLayout = new HBox(30, imageDisplayLayout, controlsLayout);
-        rootLayout.setAlignment(Pos.CENTER);
+        rootLayout = new VBox();
+        rootLayout.getChildren().addAll(logoBox, new HBox(30, imageDisplayLayout, controlsLayout));
+        rootLayout.setAlignment(Pos.TOP_LEFT);
         rootLayout.setPadding(new Insets(20));
-        rootLayout.setStyle("-fx-background-color: #f4f4f9;");
+        rootLayout.setStyle("-fx-background-color: #ffe7bb;");
     }
 
     private void applyStylesToButtons() {
@@ -191,6 +212,17 @@ public class SteganographyApp extends Application {
                 showErrorMessage("Please load the original image first.");
             }
         });
+        loadOriginalImageButton.setOnAction(e -> {
+            logger.info("Load Original BMP button clicked");
+            loadImage(stage, true);
+            updateOriginalImageStatistics(); // Обновление статистики для оригинального изображения
+        });
+
+        loadModifiedImageButton.setOnAction(e -> {
+            logger.info("Load Modified BMP button clicked");
+            loadImage(stage, false);
+            updateModifiedImageStatistics(); // Обновление статистики для модифицированного изображения
+        });
     }
 
     void loadImage(Stage stage, boolean isOriginal) {
@@ -203,10 +235,12 @@ public class SteganographyApp extends Application {
                 if (isOriginal) {
                     originalImageFile = selectedFile;
                     originalImageView.setImage(image);
+                    updateOriginalImageStatistics(); // Обновление статистики
                     logger.info("Original image loaded: " + selectedFile.getAbsolutePath());
                 } else {
                     modifiedImageFile = selectedFile;
                     modifiedImageView.setImage(image);
+                    updateModifiedImageStatistics(); // Обновление статистики
                     logger.info("Modified image loaded: " + selectedFile.getAbsolutePath());
                 }
             } catch (IOException e) {
@@ -251,6 +285,7 @@ public class SteganographyApp extends Application {
 
             Image modifiedImage = new Image(new FileInputStream(modifiedImageFile), AppConstants.MODIFIED_IMAGE_WIDTH, AppConstants.MODIFIED_IMAGE_HEIGHT, true, true);
             modifiedImageView.setImage(modifiedImage);
+            updateModifiedImageStatistics();
             logger.info("Text embedded successfully and saved to modified.bmp");
 
         } catch (IOException e) {
@@ -258,7 +293,6 @@ public class SteganographyApp extends Application {
             showErrorMessage(AppConstants.ERROR_EMBEDDING_TEXT);
         }
     }
-
 
     void extractTextFromImage() {
         if (modifiedImageFile == null || !modifiedImageFile.exists()) {
@@ -326,11 +360,34 @@ public class SteganographyApp extends Application {
         }
     }
 
+    private void updateOriginalImageStatistics() {
+        if (originalImageView.getImage() != null) {
+            String stats = ImageStatistics.getImageStatistics(originalImageView.getImage());
+            originalImageStatsLabel.setText("Original Image Stats: \n" + stats);
+        }
+    }
+
+    private void updateModifiedImageStatistics() {
+        if (modifiedImageView.getImage() != null) {
+            String stats = ImageStatistics.getImageStatistics(modifiedImageView.getImage());
+            modifiedImageStatsLabel.setText("Modified Image Stats: \n" + stats);
+        }
+    }
+
     void resetApplication() {
         originalImageFile = null;
         modifiedImageFile = null;
+
         originalImageView.setImage(null);
         modifiedImageView.setImage(null);
+
+        if (originalImageStatsLabel != null) {
+            originalImageStatsLabel.setText("Statistics reset");
+        }
+        if (modifiedImageStatsLabel != null) {
+            modifiedImageStatsLabel.setText("Statistics reset");
+        }
+
         logger.info(AppConstants.RESET_LOG);
     }
 
@@ -348,9 +405,5 @@ public class SteganographyApp extends Application {
         alert.setHeaderText(header);
         alert.setContentText(message);
         alert.showAndWait();
-    }
-
-    public String getExtractedText() {
-        return "";
     }
 }
