@@ -16,6 +16,48 @@ import java.io.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+/**
+ * Main application class for the Steganography application.
+ * <p>
+ * This class extends the {@link javafx.application.Application} class and serves
+ * as the entry point for launching the graphical user interface (GUI) of the application.
+ * </p>
+ *
+ * <h3>Application Features:</h3>
+ * <ul>
+ *     <li>Embed text into BMP images using steganographic techniques.</li>
+ *     <li>Extract embedded text from BMP images.</li>
+ *     <li>Visualize least significant bit (LSB) analysis for steganography detection.</li>
+ *     <li>Save and load BMP images for further processing.</li>
+ * </ul>
+ *
+ * <h3>How It Works:</h3>
+ * <ol>
+ *     <li>Users can load an original or modified BMP image into the application.</li>
+ *     <li>The application allows users to embed text into the image or extract text from it.</li>
+ *     <li>It also provides a "Visual Attack" feature, highlighting LSBs for analysis.</li>
+ *     <li>All features are accessible via a user-friendly graphical interface built with JavaFX.</li>
+ * </ol>
+ *
+ * <h3>Dependencies:</h3>
+ * <ul>
+ *     <li>JavaFX library for building the graphical interface.</li>
+ *     <li>Log4j library for logging important application events.</li>
+ * </ul>
+ *
+ * <h3>Usage:</h3>
+ * <pre>
+ * To run the application:
+ * 1. Compile the project using a JavaFX-compatible build tool (e.g., Maven or Gradle).
+ * 2. Ensure the JavaFX runtime libraries are included in the classpath.
+ * 3. Run the application using the {@link NewSteganographyApp} launcher class.
+ * </pre>
+ *
+ * @see javafx.application.Application
+ * @see org.app.NewSteganographyApp
+ * @see org.app.ImageCryptoTools
+ * @see org.app.ImageStatistics
+ */
 public class SteganographyApp extends Application {
 
     private static final Logger logger = LogManager.getLogger(SteganographyApp.class);
@@ -50,11 +92,21 @@ public class SteganographyApp extends Application {
     private Label originalImageStatsLabel;
     private Label modifiedImageStatsLabel;
 
+    /**
+     * Entry point of the application. Starts the JavaFX application lifecycle.
+     *
+     * @param args command-line arguments passed to the application.
+     */
     public static void main(String[] args) {
         logger.info("Application starting...");
         launch(args);
     }
 
+    /**
+     * Initializes the JavaFX application. Sets up the primary stage and main UI elements.
+     *
+     * @param primaryStage the primary stage for this application, provided by JavaFX.
+     */
     @Override
     public void start(Stage primaryStage) {
         this.stage = primaryStage;
@@ -68,6 +120,9 @@ public class SteganographyApp extends Application {
         initMainUIElements();
     }
 
+    /**
+     * Initializes the main UI components and layout. Sets up buttons, image views, and their styles.
+     */
     private void initMainUIElements() {
         originalImageView = new ImageView();
         modifiedImageView = new ImageView();
@@ -94,6 +149,9 @@ public class SteganographyApp extends Application {
         stage.show();
     }
 
+    /**
+     * Sets up the layout for the application, including image displays, controls, and logo.
+     */
     private void layoutSetup() {
         originalImageBox = createImageBox(originalImageView, "Original Image");
         modifiedImageBox = createImageBox(modifiedImageView, "Modified Image");
@@ -134,6 +192,9 @@ public class SteganographyApp extends Application {
         rootLayout.setStyle("-fx-background-color: #ffe7bb;");
     }
 
+    /**
+     * Applies styles to all buttons used in the application.
+     */
     private void applyStylesToButtons() {
         styleButton(loadOriginalImageButton);
         styleButton(loadModifiedImageButton);
@@ -145,11 +206,23 @@ public class SteganographyApp extends Application {
         styleButton(visualAttackOriginalButton);
     }
 
+    /**
+     * Applies a predefined style to a specific button.
+     *
+     * @param button the button to style.
+     */
     private void styleButton(Button button) {
         button.setStyle(AppConstants.BUTTON_STYLE);
         button.setMinWidth(200);
     }
 
+    /**
+     * Creates a VBox containing an ImageView and a label for display purposes.
+     *
+     * @param imageView the ImageView to be displayed.
+     * @param labelText the text label describing the image.
+     * @return a VBox containing the image and label.
+     */
     private VBox createImageBox(ImageView imageView, String labelText) {
         Label label = new Label(labelText);
         label.setFont(Font.font(16));
@@ -163,6 +236,9 @@ public class SteganographyApp extends Application {
         return box;
     }
 
+    /**
+     * Adds action listeners to all UI elements for handling user interactions.
+     */
     private void addActionListenersForElements() {
         loadOriginalImageButton.setOnAction(e -> {
             logger.info("Load Original BMP button clicked");
@@ -225,6 +301,12 @@ public class SteganographyApp extends Application {
         });
     }
 
+    /**
+     * Loads an image file and sets it to the specified ImageView.
+     *
+     * @param stage      the stage for displaying the file chooser.
+     * @param isOriginal true if the image is the original image; false otherwise.
+     */
     void loadImage(Stage stage, boolean isOriginal) {
         FileChooser fileChooser = new FileChooser();
         fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter(AppConstants.BMP_DESCRIPTION, AppConstants.BMP_EXTENSION));
@@ -250,6 +332,11 @@ public class SteganographyApp extends Application {
         }
     }
 
+    /**
+     * Embeds the provided text into the loaded original image.
+     *
+     * @param text the text to embed into the image.
+     */
     void embedTextInImage(String text) {
         try {
             // Checking the minimum image sizes
@@ -296,6 +383,9 @@ public class SteganographyApp extends Application {
         }
     }
 
+    /**
+     * Extracts embedded text from the currently loaded modified image.
+     */
     void extractTextFromImage() {
         if (modifiedImageFile == null || !modifiedImageFile.exists()) {
             logger.warn("No modified image loaded for extraction");
@@ -324,6 +414,12 @@ public class SteganographyApp extends Application {
         }
     }
 
+    /**
+     * Applies a visual attack to the specified image file and displays the result in the provided ImageView.
+     *
+     * @param imageFile the image file to which the visual attack will be applied.
+     * @param imageView the ImageView to display the attacked image.
+     */
     void applyVisualAttack(File imageFile, ImageView imageView) {
         try {
             Image image = new Image(new FileInputStream(imageFile));
@@ -339,6 +435,11 @@ public class SteganographyApp extends Application {
         }
     }
 
+    /**
+     * Saves the currently modified image to a location specified by the user.
+     *
+     * @param stage the JavaFX Stage used to display the save dialog.
+     */
     void saveModifiedImage(Stage stage) {
         if (modifiedImageFile == null) {
             logger.warn("No modified image to save");
@@ -362,6 +463,9 @@ public class SteganographyApp extends Application {
         }
     }
 
+    /**
+     * Updates the statistics label for the original image using data derived from the loaded image.
+     */
     private void updateOriginalImageStatistics() {
         if (originalImageView.getImage() != null) {
             String stats = ImageStatistics.getImageStatistics(originalImageView.getImage());
@@ -369,6 +473,9 @@ public class SteganographyApp extends Application {
         }
     }
 
+    /**
+     * Updates the statistics label for the modified image using data derived from the loaded image.
+     */
     private void updateModifiedImageStatistics() {
         if (modifiedImageView.getImage() != null) {
             String stats = ImageStatistics.getImageStatistics(modifiedImageView.getImage());
@@ -376,6 +483,9 @@ public class SteganographyApp extends Application {
         }
     }
 
+    /**
+     * Resets the application to its initial state. Clears loaded images, statistics, and related variables.
+     */
     void resetApplication() {
         originalImageFile = null;
         modifiedImageFile = null;
@@ -393,6 +503,11 @@ public class SteganographyApp extends Application {
         logger.info(AppConstants.RESET_LOG);
     }
 
+    /**
+     * Displays an error message in a pop-up dialog.
+     *
+     * @param message the error message to display.
+     */
     private void showErrorMessage(String message) {
         Alert alert = new Alert(Alert.AlertType.ERROR);
         alert.setTitle("Error");
@@ -401,6 +516,13 @@ public class SteganographyApp extends Application {
         alert.showAndWait();
     }
 
+    /**
+     * Displays an informational message in a pop-up dialog.
+     *
+     * @param title   the title of the dialog.
+     * @param header  the header text of the dialog.
+     * @param message the informational message to display.
+     */
     private void showInfoMessage(String title, String header, String message) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle(title);

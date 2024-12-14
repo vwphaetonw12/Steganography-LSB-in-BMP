@@ -3,8 +3,19 @@ package org.app;
 import javafx.scene.image.Image;
 import javafx.scene.image.PixelReader;
 
+/**
+ * Utility class for computing various statistics about images, such as dimensions,
+ * pixel count, unique colors, and embedding capacity.
+ */
 public class ImageStatistics {
 
+    /**
+     * Computes statistical information about a given image, including dimensions,
+     * pixel count, unique colors, and available bits for data embedding.
+     *
+     * @param image the input image to analyze. If null, returns a message indicating no image is loaded.
+     * @return a formatted string containing the image statistics, or a message indicating no image is loaded.
+     */
     public static String getImageStatistics(Image image) {
         if (image == null) {
             return "No image loaded.";

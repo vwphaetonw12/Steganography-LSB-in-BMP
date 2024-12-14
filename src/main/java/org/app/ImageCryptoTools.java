@@ -8,9 +8,21 @@ import javafx.scene.paint.Color;
 
 import java.io.*;
 
+/**
+ * Utility class for performing cryptographic operations on images,
+ * including embedding and extracting text, and applying visual attacks.
+ */
 public class ImageCryptoTools {
 
-    // Apply visual attack to an image (LSB Analysis)
+    /**
+     * Applies a visual attack (LSB Analysis) to the given image.
+     * This method creates a new image where each pixel reflects the least significant bit
+     * of the red, green, and blue channels of the original image.
+     *
+     * @param image the input image to apply the visual attack on.
+     * @return a new Image object with the results of the visual attack.
+     * @throws IllegalArgumentException if the image dimensions are invalid (width or height <= 0).
+     */
     public static Image performVisualAttack(Image image) {
         // Check if the image dimensions are valid
         int width = (int) image.getWidth();
@@ -53,6 +65,13 @@ public class ImageCryptoTools {
         return attackedImage;
     }
 
+    /**
+     * Extracts a text message embedded in the least significant bits (LSBs) of an image byte array.
+     * The embedded text is expected to be terminated by a null byte.
+     *
+     * @param imageBytes the byte array representing the image data.
+     * @return the extracted string message.
+     */
     public static String getString(byte[] imageBytes) {
         int offset = 54; // BMP header size
         ByteArrayOutputStream textBytes = new ByteArrayOutputStream();
@@ -72,6 +91,14 @@ public class ImageCryptoTools {
         return textBytes.toString();
     }
 
+    /**
+     * Embeds a byte array (representing text) into the least significant bits (LSBs) of an image byte array.
+     * The method modifies the provided imageBytes in place to store the textBytes.
+     *
+     * @param imageBytes the byte array representing the image data where the text will be embedded.
+     * @param textBytes  the byte array representing the text to embed.
+     * @throws IOException if there is insufficient space in the image to embed the text.
+     */
     static void embedBytesInImageBytes(byte[] imageBytes, byte[] textBytes) throws IOException {
         int offset = 54; // BMP header size
         for (byte b : textBytes) {
