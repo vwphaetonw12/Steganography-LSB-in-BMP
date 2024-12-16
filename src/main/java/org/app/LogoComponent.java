@@ -6,6 +6,8 @@ import javafx.scene.layout.VBox;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.util.Objects;
+
 /**
  * A class responsible for creating a logo component, which is displayed as an image within a VBox container.
  */
@@ -31,7 +33,7 @@ public class LogoComponent {
     public LogoComponent(String resourcePath) {
         try {
 
-            Image logoImage = new Image(getClass().getResourceAsStream(resourcePath));
+            Image logoImage = new Image(Objects.requireNonNull(getClass().getResourceAsStream(resourcePath)));
             ImageView logoView = new ImageView(logoImage);
             logoView.setFitWidth(200);
             logoView.setPreserveRatio(true);
@@ -39,7 +41,7 @@ public class LogoComponent {
             logoBox = new VBox(logoView);
             logoBox.setStyle("-fx-alignment: top-left; -fx-padding: 10;");
         } catch (Exception e) {
-            logger.warn("Failed to load logo from resource: " + resourcePath, e);
+            logger.warn("Failed to load logo from resource: {}", resourcePath, e);
             logoBox = new VBox();
         }
     }

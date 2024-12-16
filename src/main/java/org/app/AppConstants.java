@@ -103,9 +103,6 @@ public class AppConstants {
     // UI Styles and Fonts
     // ----------------------------------------
 
-    /** Background color for the root layout of the application. */
-    public static final String ROOT_LAYOUT_BACKGROUND_COLOR = "#f4f4f9";
-
     /** Style applied to buttons in the application. */
     public static final String BUTTON_STYLE = "-fx-background-color: #FFA500; " +
             "-fx-text-fill: white; " +
@@ -117,12 +114,6 @@ public class AppConstants {
             "-fx-cursor: hand; " +
             "-fx-effect: dropshadow(gaussian, #000, 10, 0.5, 2, 2);";
 
-    /** Style applied to ImageView components in the application. */
-    public static final String IMAGE_VIEW_STYLE = "-fx-effect: dropshadow(gaussian, #000, 10, 0.5, 0, 0); -fx-border-color: #ccc; -fx-border-width: 2;";
-
-    /** Font size for labels in the application. */
-    public static final String LABEL_FONT = "16";
-
     /** Font size for buttons in the application. */
     public static final String BUTTON_FONT = "14";
 
@@ -130,14 +121,8 @@ public class AppConstants {
     // Logging Messages
     // ----------------------------------------
 
-    /** Log message indicating that the application is starting. */
-    public static final String APPLICATION_STARTING_LOG = "Application starting...";
-
     /** Log message indicating that the UI is being initialized. */
     public static final String UI_INITIALIZING_LOG = "Initializing main UI elements";
-
-    /** Log message indicating that the UI elements have been initialized. */
-    public static final String UI_ELEMENTS_INITIALIZED_LOG = "UI elements initialized";
 
     /** Log message indicating that the application has been reset. */
     public static final String RESET_LOG = "Application reset";

@@ -83,9 +83,7 @@ public class SteganographyApp extends Application {
     private Button visualAttackOriginalButton;
 
     private VBox rootLayout;
-    private HBox imageDisplayLayout;
     private VBox controlsLayout;
-    private VBox originalImageBox;
     private VBox modifiedImageBox;
     private VBox logoBox;
 
@@ -153,7 +151,7 @@ public class SteganographyApp extends Application {
      * Sets up the layout for the application, including image displays, controls, and logo.
      */
     private void layoutSetup() {
-        originalImageBox = createImageBox(originalImageView, "Original Image");
+        VBox originalImageBox = createImageBox(originalImageView, "Original Image");
         modifiedImageBox = createImageBox(modifiedImageView, "Modified Image");
 
         originalImageStatsLabel = new Label("Original Image Stats: Not loaded");
@@ -167,7 +165,7 @@ public class SteganographyApp extends Application {
         VBox originalWithStats = new VBox(10, originalImageBox, originalImageStatsLabel);
         VBox modifiedWithStats = new VBox(10, modifiedImageBox, modifiedImageStatsLabel);
 
-        imageDisplayLayout = new HBox(30, originalWithStats, modifiedWithStats);
+        HBox imageDisplayLayout = new HBox(30, originalWithStats, modifiedWithStats);
         imageDisplayLayout.setAlignment(Pos.CENTER);
         imageDisplayLayout.setPadding(new Insets(20));
 
